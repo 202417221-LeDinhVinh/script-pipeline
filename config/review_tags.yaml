@@ -1,0 +1,16 @@
+# Fixed defect taxonomy for human review (§17 Q15). Agents must not edit.
+- hook-miss
+- payoff-unresolved
+- pacing-flat
+- logic-break
+- knowledge-violation
+- continuity-name
+- continuity-number
+- continuity-episode
+- template-repeat
+- cta-repeat
+- marker-repeat
+- voice-flip
+- safety-minor
+- fidelity-contradicted
+- fidelity-unverified

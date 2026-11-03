@@ -1,0 +1,61 @@
+{
+  "scene_beats": [
+    {
+      "beat_id": 1,
+      "block_type": "Anomaly_Hook",
+      "narration_text": "My power bill jumped by twelve bucks, and that's why cops dug up my yard.",
+      "tts_emotion_prompt": "urgent",
+      "screen_text_overlay": "WOW",
+      "b_roll_vibe": "soap_cutting",
+      "sfx_cue": "whoosh.mp3",
+      "bgm_directive": "tense"
+    },
+    {
+      "beat_id": 2,
+      "block_type": "Clue_Stacking",
+      "narration_text": "Look, it kicked off with muddy prints by my back door. Then my porch light died at three each night. Honestly, my dog won't go near that shed now. I swept them off each dawn. Chill wind blew through cracks. Folks gasped loud out back.",
+      "tts_emotion_prompt": "urgent",
+      "screen_text_overlay": "WOW",
+      "b_roll_vibe": "soap_cutting",
+      "sfx_cue": "whoosh.mp3",
+      "bgm_directive": "tense"
+    },
+    {
+      "beat_id": 3,
+      "block_type": "Investigation_Trap",
+      "narration_text": "So get this, I set my old phone to film the yard. At two at night the shed door swung wide. No hand touched it on the tape. I've watched that clip ten times through. Dogs barked wild far off. I've kept each tape sealed tight.",
+      "tts_emotion_prompt": "urgent",
+      "screen_text_overlay": "WOW",
+      "b_roll_vibe": "soap_cutting",
+      "sfx_cue": "whoosh.mp3",
+      "bgm_directive": "tense"
+    },
+    {
+      "beat_id": 4,
+      "block_type": "False_Relief",
+      "narration_text": "The crazy part, a tech said a cut wire spiked my bill. I felt calm at last. Case shut, or so I thought then. Rain hit glass all night. I slept deep till dawn. Phones rang nonstop at eight.",
+      "tts_emotion_prompt": "urgent",
+      "screen_text_overlay": "WOW",
+      "b_roll_vibe": "soap_cutting",
+      "sfx_cue": "whoosh.mp3",
+      "bgm_directive": "tense"
+    },
+    {
+      "beat_id": 5,
+      "block_type": "Chilling_Reveal",
+      "narration_text": "When cops pulled that shed floor up, they found my twin's old trunk. He'd been gone ten years. Don't ask me how his boots looked fresh as new. My blood ran cold fast. Crowd pressed close by noon.",
+      "tts_emotion_prompt": "urgent",
+      "screen_text_overlay": "WOW",
+      "b_roll_vibe": "soap_cutting",
+      "sfx_cue": "whoosh.mp3",
+      "bgm_directive": "tense"
+    }
+  ],
+  "hook_option": "Option_1_Pink_Teddy_Bear",
+  "hook_payoff_beat_id": 5,
+  "call_to_action": {
+    "type": "cliffhanger_subscription",
+    "outro_narration": "Hit follow for part two to see what hid in that trunk.",
+    "loop_connector_word": ""
+  }
+}

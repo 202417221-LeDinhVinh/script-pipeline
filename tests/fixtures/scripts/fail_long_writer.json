@@ -1,0 +1,61 @@
+{
+  "scene_beats": [
+    {
+      "beat_id": 1,
+      "block_type": "Disruption_Hook",
+      "narration_text": "I smiled as the cops cuffed my own brother that night, though I'd set the trap myself.",
+      "tts_emotion_prompt": "urgent",
+      "screen_text_overlay": "WOW",
+      "b_roll_vibe": "soap_cutting",
+      "sfx_cue": "whoosh.mp3",
+      "bgm_directive": "tense"
+    },
+    {
+      "beat_id": 2,
+      "block_type": "Fast_Context_And_Handover",
+      "narration_text": "Look, rewind two nights to our food truck. Jake skimmed cash from the till for weeks. I set marked bills in the drawer. Honestly, I felt sick watching him pocket them on camera. Rain hit the roof hard.",
+      "tts_emotion_prompt": "urgent",
+      "screen_text_overlay": "WOW",
+      "b_roll_vibe": "soap_cutting",
+      "sfx_cue": "whoosh.mp3",
+      "bgm_directive": "tense"
+    },
+    {
+      "beat_id": 3,
+      "block_type": "Escalation",
+      "narration_text": "So get this, he blamed our helper Luis at dawn. He yelled at Luis in front of a long line. I've got the tape saved on my phone. Don't test me, I told him, show me your pockets. Dogs barked wild next door. Folks gasped loud real quick. word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word",
+      "tts_emotion_prompt": "urgent",
+      "screen_text_overlay": "WOW",
+      "b_roll_vibe": "soap_cutting",
+      "sfx_cue": "whoosh.mp3",
+      "bgm_directive": "tense"
+    },
+    {
+      "beat_id": 4,
+      "block_type": "Micro_Twist_And_Payoff",
+      "narration_text": "The crazy part, Jake reached in and pulled out my marked bills. His face went white as milk. Mom stood there and saw it all. No more lies left to sell to this town. Phones rang nonstop all day.",
+      "tts_emotion_prompt": "urgent",
+      "screen_text_overlay": "WOW",
+      "b_roll_vibe": "soap_cutting",
+      "sfx_cue": "whoosh.mp3",
+      "bgm_directive": "tense"
+    },
+    {
+      "beat_id": 5,
+      "block_type": "Climax_And_Cliffhanger",
+      "narration_text": "Cops walked in as our lunch rush hit its peak. Jake cried and begged me to drop it. I just shook my head slow. Blood is thick, but theft is theft, bro. Crowds pressed close to watch. Guards paced halls nearby.",
+      "tts_emotion_prompt": "urgent",
+      "screen_text_overlay": "WOW",
+      "b_roll_vibe": "soap_cutting",
+      "sfx_cue": "whoosh.mp3",
+      "bgm_directive": "tense"
+    }
+  ],
+  "hook_option": "Option_2_Out_Of_Context_Confession",
+  "hook_payoff_beat_id": 4,
+  "call_to_action": {
+    "type": "cliffhanger_subscription",
+    "outro_narration": "Hit follow for part two to see what Mom said next.",
+    "loop_connector_word": ""
+  }
+}

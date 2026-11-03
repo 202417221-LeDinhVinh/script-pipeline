@@ -1,0 +1,4 @@
+# SYNTHETIC robots.txt fixture: allows series/chapter paths (test only).
+User-agent: *
+Disallow: /tim-kiem/
+Disallow: /ajax

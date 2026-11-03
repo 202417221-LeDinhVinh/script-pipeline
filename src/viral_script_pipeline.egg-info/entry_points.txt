@@ -1,0 +1,2 @@
+[console_scripts]
+vsp = vsp.cli:main

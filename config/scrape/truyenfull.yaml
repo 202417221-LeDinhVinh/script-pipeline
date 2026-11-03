@@ -1,0 +1,59 @@
+# Truyenfull adapter config (SPEC §15.2.3). Boilerplate lives here, not in code.
+site: truyenfull.live
+
+series:
+  title: ["h3.title", "h1.series-title", "h1.title", "h1"]
+  author: ["[itemprop=author]", ".info a[href*=tac-gia]", "a.author", ".author a", "span.author"]
+  chapter_list: ["ul.list-chapter", "div.list-chapter ul", "#list-chapter"]
+  chapter_link: ["li a", "a.chapter"]
+  next_page: ["a.next-page", "li.next a", ".pagination a.next", "a[rel=next]"]
+
+chapter:
+  content: ["div#chapter-c", "div.chapter-c", "div.chapter-content", "#chapter-content"]
+  title: ["a.chapter-title", "h1.chapter-title", ".chapter-title", "h1"]
+  remove_selectors:
+    - "script"
+    - "style"
+    - "iframe"
+    - "ins"
+    - "nav"
+    - "header"
+    - "footer"
+    - ".ads"
+    - ".advertisement"
+    - ".breadcrumb"
+    - ".pagination"
+    - ".chapter-nav"
+    - ".chapter-actions"
+    - ".comments"
+    - "#comments"
+    - "#ads-chapter-top"
+    - ".ads-reminder"
+    - ".ads-reminder-text"
+    - ".ads-reminder-actions"
+  boilerplate_fragments:
+    - "advertisement"
+    - "watermark"
+    - "truyenfull-wm"
+    - "lock-box"
+    - "chapter-lock"
+  lock_phrases:
+    - "Nội dung chương đang bị khóa"
+  drop_line_patterns:
+    - "^\\s*(Editor|Beta)\\s*:"
+  watermark_lines: []
+
+# Leftover check (SPEC §15.3): none of these may appear in final chapter text.
+leftover_markers:
+  - "truyen full, truyenfull, truyenfullvn, truyenfulllive"
+  - "truyenfull,truyenfull vn"
+
+# Chapters locked at the source (SPEC §16.5 R9): when a too-short chapter
+# matches one of these, the gate reports check=locked_at_source.
+locked_at_source_phrases:
+  - "sẽ được đặt pass"
+  - "Lấy pass của chương"
+
+thresholds:
+  min_chars: 1500
+  min_paragraphs: 10

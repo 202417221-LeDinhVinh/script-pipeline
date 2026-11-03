@@ -1,0 +1,12 @@
+run/
+out/
+state/
+feedback/
+data/
+inbox/
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/

@@ -1,0 +1,15 @@
+{
+  "series_url": "https://metruyenchu.com.vn/dao-quy-di-tien",
+  "chapter_url": "https://metruyenchu.com.vn/dao-quy-di-tien/chuong-1-Odu5R7udF0MJ",
+  "fetched_at": "2026-10-31T16:32:18.822882+00:00",
+  "files": {
+    "mtc_series.html": {
+      "sha256": "68d41ae3a5adb2bdc9a7c6e67318fdab033f6c8b8b39b107663cb19f8bbc4080",
+      "bytes": 40028
+    },
+    "mtc_chuong-001.html": {
+      "sha256": "7d97c9ce70a9ad285d47ac6265ebe077bfe283babd60c5b1c98365ad4ee41aa3",
+      "bytes": 40860
+    }
+  }
+}

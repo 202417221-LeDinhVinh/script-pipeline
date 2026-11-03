@@ -1,0 +1,4 @@
+# SYNTHETIC robots.txt fixture: disallows the series path (test only).
+User-agent: *
+Disallow: /truyen-thu-nghiem/
+Disallow: /tim-kiem/

@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: viral-script-pipeline
+Version: 0.1.0
+Summary: Automated deterministic pipeline: raw texts -> 65-75s short-form video scripts
+Requires-Python: >=3.11
+Requires-Dist: pydantic>=2.5
+Requires-Dist: httpx>=0.25
+Requires-Dist: PyYAML>=6.0
+Requires-Dist: textstat>=0.7.4
+Requires-Dist: pytest>=8.0

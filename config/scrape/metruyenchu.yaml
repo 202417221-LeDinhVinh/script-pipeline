@@ -1,0 +1,44 @@
+# Metruyenchu adapter config (SPEC §18.2 M1). Boilerplate lives here, not in code.
+site: metruyenchu.com.vn
+
+series:
+  title: ["h1", ".book-info h1", ".series-title"]
+  author: ["[itemprop=author]", ".author a", "a.author", ".book-info .author"]
+  chapter_list: ["#chapter-list", "div#chapter-list ul", "ul.chapter-list"]
+  chapter_link: ["li a", "a"]
+  next_page: ["a.next-page", "li.next a", ".pagination a.next", "a[rel=next]"]
+
+chapter:
+  # div.truyen holds the text (sibling after the first wrap); the wraps hold
+  # title/nav. Fall back to the first wrap if truyen is absent.
+  content: ["div.truyen", "div.chapter_wrap"]
+  title: ["h2.current-chapter a", "h2.current-chapter", "h1.current-book a", "h1"]
+  remove_selectors:
+    - "script"
+    - "style"
+    - "iframe"
+    - "ins"
+    - "nav"
+    - "header"
+    - "footer"
+    - ".ads"
+    - ".advertisement"
+    - ".chapter_control"
+    - ".control-last"
+    - ".comments"
+    - "#comments"
+  boilerplate_fragments: []
+  # converter footer: strip from the _____ separator line to the end of the content
+  separator_rule: "_____"
+  lock_phrases: []
+  drop_line_patterns: []
+  watermark_lines: []
+
+leftover_markers:
+  - "Tải Ebook"
+
+locked_at_source_phrases: []
+
+thresholds:
+  min_chars: 1500
+  min_paragraphs: 10

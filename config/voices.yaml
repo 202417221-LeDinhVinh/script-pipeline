@@ -1,0 +1,19 @@
+pools:
+  male:
+    young:
+      - "en_us_male_young_01"
+      - "en_us_male_young_02"
+    deep:
+      - "en_us_male_deep_01"
+      - "en_us_male_deep_02"
+  female:
+    young:
+      - "en_us_female_young_01"
+      - "en_us_female_young_02"
+    mature:
+      - "en_us_female_mature_01"
+      - "en_us_female_mature_02"
+  neutral:
+    narrator:
+      - "en_us_narrator_01"
+      - "en_us_narrator_02"

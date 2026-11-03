@@ -1,0 +1,40 @@
+# AUDITOR-OWNED (SPEC §17 Q7, age-up rule). Child descriptors that must NOT appear in
+# narration or screen text of an episode containing an aged-up character.
+# One term per line, case-insensitive, word-boundary match.
+thirteen
+fourteen
+fifteen
+sixteen
+seventeen
+13-year-old
+14-year-old
+15-year-old
+16-year-old
+17-year-old
+teen
+teenage
+teenager
+tween
+middle school
+junior high
+high school
+high schooler
+7th grade
+8th grade
+9th grade
+10th grade
+11th grade
+12th grade
+seventh grade
+eighth grade
+ninth grade
+homeroom
+parent-teacher
+school uniform
+schoolgirl
+schoolboy
+little girl
+kid sister
+kid sis
+child
+minor

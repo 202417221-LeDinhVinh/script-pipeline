@@ -1,0 +1,52 @@
+# AUDITOR-OWNED. Implementing agents must not edit this file (SPEC §17.6).
+# The pipeline reads every value below from here and nowhere else.
+lock_version: 1
+chunking:
+  serial: {sliding_target: 3000, sliding_min: 2200, sliding_max: 3800, clean_cut_window: 300}
+word_count: {hard_min: 185, hard_max: 235, target_min: 190, target_max: 225}
+readability: {flesch_kincaid_max: 6.5, max_sentence_words: 20, max_beat1_words: 20}
+release:
+  overall_min: 8.0
+  dimension_floor: 7.0
+  zero_tolerance_items: [L1, S1, V1]
+  max_not_in_source_stylistic: 3
+  contradicted_claims_max: 0
+  export_forced_pass: false
+drafting:
+  best_of_n: 3
+  max_rewrite_attempts: 2
+  rewrite_must_not_regress: true
+judging:
+  panel:
+    - opencode-go/deepseek-v4.1-flash
+    - opencode-go/mimo-v2.6-flash
+  samples_per_judge: 2
+  randomize_order: true
+  writer_model_must_differ: true
+calibration:
+  min_recall_llm_types: 0.90
+  min_test_retest_agreement: 0.90
+  repeats: 3
+  min_recall_per_type: 0.90
+  max_false_fail_rate: 0.10
+anti_template:
+  hook_trigram_jaccard_max: 0.35
+  cta_first_words: 5
+  cta_ngram: 5
+  cta_lookback_episodes: 3
+  marker_max_in_last_4: 2
+continuity:
+  first_person_min_ratio: 0.60
+  number_tolerance_ratio: 0.01
+budget:
+  hard_cost_cap_usd: 0.10
+  max_total_tokens_opencode: 400000
+  active_timeout_seconds: 1800
+  max_daily_api_spend_usd: 5.00
+human_review:
+  mode: all            # all | sample  (only the owner flips this)
+  sample_rate: 0.10
+  honeypot_every: 10
+  phase2_min_reviews: 30
+  phase2_min_kappa: 0.70
+  phase2_max_false_release: 0.05

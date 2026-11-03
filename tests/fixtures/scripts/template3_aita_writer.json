@@ -1,0 +1,61 @@
+{
+  "scene_beats": [
+    {
+      "beat_id": 1,
+      "block_type": "Polarizing_Question",
+      "narration_text": "Am I wrong for uninviting my own mom from my wedding day?",
+      "tts_emotion_prompt": "urgent",
+      "screen_text_overlay": "WOW",
+      "b_roll_vibe": "soap_cutting",
+      "sfx_cue": "whoosh.mp3",
+      "bgm_directive": "tense"
+    },
+    {
+      "beat_id": 2,
+      "block_type": "POV_A_Empathy",
+      "narration_text": "Look, Mom told my guests my dress cost too much. She called my man a gold digger twice. I've cried each night this week. Don't tell me I'm cold for this. Honestly, my chest hurts bad. She's mad but I've got proof still. Watch my next move soon.",
+      "tts_emotion_prompt": "urgent",
+      "screen_text_overlay": "WOW",
+      "b_roll_vibe": "soap_cutting",
+      "sfx_cue": "whoosh.mp3",
+      "bgm_directive": "tense"
+    },
+    {
+      "beat_id": 3,
+      "block_type": "POV_B_Grey_Area",
+      "narration_text": "So get this, Mom paid half our hall fee last spring. She says my man won't keep a job. The crazy part, she's right on that count so far. Folks take sides each day. Phones ring nonstop at home. Crowd pressed close to hear.",
+      "tts_emotion_prompt": "urgent",
+      "screen_text_overlay": "WOW",
+      "b_roll_vibe": "soap_cutting",
+      "sfx_cue": "whoosh.mp3",
+      "bgm_directive": "tense"
+    },
+    {
+      "beat_id": 4,
+      "block_type": "Breaking_Point",
+      "narration_text": "Last night Mom said she'd skip the rites if he comes. My man said fine, let's run off south. I've got kin on both sides yelling now. Rain hit hard on glass. Dogs barked wild till dawn. Kin wept soft and low. Chill wind blew past doors.",
+      "tts_emotion_prompt": "urgent",
+      "screen_text_overlay": "WOW",
+      "b_roll_vibe": "soap_cutting",
+      "sfx_cue": "whoosh.mp3",
+      "bgm_directive": "tense"
+    },
+    {
+      "beat_id": 5,
+      "block_type": "Engagement_Verdict",
+      "narration_text": "So tell me straight, whose side holds here? Vote kin or love in the notes. I'll read each word tonight. Blood runs thick, yet trust runs thin here.",
+      "tts_emotion_prompt": "urgent",
+      "screen_text_overlay": "WOW",
+      "b_roll_vibe": "soap_cutting",
+      "sfx_cue": "whoosh.mp3",
+      "bgm_directive": "tense"
+    }
+  ],
+  "hook_option": "Option_3_Contradiction",
+  "hook_payoff_beat_id": 4,
+  "call_to_action": {
+    "type": "engagement_verdict",
+    "outro_narration": "Drop your take below and hit follow for part two votes.",
+    "loop_connector_word": ""
+  }
+}
